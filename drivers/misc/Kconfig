@@ -641,7 +641,7 @@ config ONESEG_TUNER_SMTVJ19X
 	  SMT-VJ19x.
 
 config NFC_PN553_DEVICES
-	bool "Nxp pn553 NCI protocol driver (I2C) devices"
+	tristate "Nxp pn553 NCI protocol driver (I2C) devices"
 	default y
 	---help---
 	  You'll have to say Y if your computer contains an I2C device that
