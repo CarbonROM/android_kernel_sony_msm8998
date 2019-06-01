@@ -1300,8 +1300,6 @@ static int wsa881x_swr_probe(struct swr_device *pdev)
 			__func__);
 		goto dev_err;
 	}
-	mutex_init(&wsa881x->res_lock);
-	mutex_init(&wsa881x->temp_lock);
 
 	return 0;
 
