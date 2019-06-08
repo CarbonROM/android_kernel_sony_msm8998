@@ -54,8 +54,8 @@
  * @model: card model
  */
 struct ufs_card_info {
-	u16 specver;
 	u16 wmanufacturerid;
+	u16 specver;
 	char *model;
 	char *revision;
 };
