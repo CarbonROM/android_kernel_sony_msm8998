@@ -72,9 +72,6 @@ obj-$(CONFIG_FB_MSM_MDSS) += incell.o
 endif
 obj-$(CONFIG_COMPAT) += mdss_compat_utils.o
 
-# TODO: remove me b/62058353
+# TODO: remove me b/62057517
 subdir-ccflags-y += \
-	-Wno-header-guard \
-	-Wno-parentheses-equality \
-	-Wno-duplicate-decl-specifier
-
+	-Wno-header-guard
